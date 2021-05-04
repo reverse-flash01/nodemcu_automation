@@ -16,9 +16,9 @@ void connectionIndicator();
 #define REDLED 12 //D6
 
 // network and project credentials
-char auth[] = "ArApPh_RleM6cDytPu6_oAhm3ye6QKGX";//Blynk project authentication token
-char ssid[] = "JALAL";//Wifi name
-char pass[] = "YS3UL%U7";//Wifi password
+char auth[] = "";//Blynk project authentication token
+char ssid[] = "";//Wifi name
+char pass[] = "";//Wifi password
 
 //setting up 
 DHT dht(DHTPIN,DHTTYPE);//DHT sensor object
